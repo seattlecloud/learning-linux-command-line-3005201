@@ -22,3 +22,4 @@ if [[ ":$PATH:" != *":$(pwd)/bin:"* ]]; then
 fi
 
 ./bin/repo.sh
+echo "source $(pwd)/.bashrc" >> ~/.bashrc
